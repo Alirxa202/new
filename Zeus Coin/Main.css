@@ -1,0 +1,111 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.page {
+    background-image: linear-gradient(rgb(183, 0, 255), rgb(0, 4, 255));
+    background-size:cover;
+    background-repeat:no-repeat ;
+}
+
+
+
+
+.Section-one {
+    width: 80%;
+    margin: 30px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction:row;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+.one-items{
+    display: inline;
+}
+
+.icon{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    
+    
+}
+
+.text{
+    margin-left: 7px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+.button{
+    margin-left: auto;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 7px;
+}
+.sup-text1{
+    font-family: M;
+    font-size: 13px;
+}
+
+#sub{
+    font-weight: bold;
+    font-size: 15px;
+  }
+
+@font-face {
+    font-family: M ;
+    src: url(msyh.ttc);
+}
+
+#coin{
+    width: 50%;
+    border-radius: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+    
+}
+
+.bottom-button{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction:row;
+    /* background-color: white; */
+    width: 35%;
+}
+
+.button1{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 7px;
+}
+
+@-moz-keyframes spin { 
+    100% { -moz-transform: rotate(360deg); } 
+}
+@-webkit-keyframes spin { 
+    100% { -webkit-transform: rotate(360deg); } 
+}
+@keyframes spin { 
+    100% { 
+        -webkit-transform: rotate(360deg); 
+        transform:rotate(360deg); 
+    } 
+}
